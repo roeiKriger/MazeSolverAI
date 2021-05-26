@@ -3,8 +3,6 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
 
-// based on algorithm from https://www.geeksforgeeks.org/breadth-first-traversal-bfs-on-a-2d-array/
-// This code is contributed by 29AjayKumar
 
 public class Bfs {
 	public Triple[][] parent; // the parent Matrix will be used in order to keep track of each route and from which point it has started
