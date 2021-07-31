@@ -70,7 +70,7 @@ public class Astart {
 			}
 			
 			Collections.sort(pq, new fComp());  // sorting the arraylist each time
-			//System.out.println(pq);
+
 		}
 		
 		//printing all the needed details
