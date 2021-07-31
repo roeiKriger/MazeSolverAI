@@ -104,8 +104,6 @@ public class Bfs {
 		// printing results
 		ArrayList<Triple> route = route(goalRow, goalCol, startRow, startCol);
 		Collections.reverse(route);
-		/*System.out.println("Alg Name : BFS");
-		System.out.println("Input : " + Main.fileName);*/
 		System.out.print("Path : ");
 		printRoute(route);
 		System.out.println("Cost : " + (route.size())); //we count the start state and the goal state
